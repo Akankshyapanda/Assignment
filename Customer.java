@@ -1,36 +1,36 @@
-package assignmemt4.com;
-	public class Customer{
-		private String customerName;
-		Address resendialAddress=new Address() ;
-		public Customer(String customerName,String addressLine,String city) {
-			this.customerName = customerName;
-			getResendialAddress().setAddressLine(addressLine);
-			getResendialAddress().setCity(city);
+package assignment6.com;
 
-		}
-		public Customer() {
-			// TODO Auto-generated constructor stub
-		}
-		public String getCustomerName() {
-			return customerName;
-		}
-		public void setCustomerName(String customerName) {
-			this.customerName = customerName;
-		}
-
-
-		String getCustomerDetails()
-		{
-			
-			return("Customer :  "+this.customerName+"\n"+"Resendial Address :  "+getResendialAddress().getAddressDetails());
-		}
-		public Address getResendialAddress() {
-			return resendialAddress;
-		}
-		public void setResendialAddress(Address resendialAddress) {
-			this.resendialAddress = resendialAddress;
-		}
-
-		}
+public class Customer {
+	   private String CustNo ;
+	   private String CustName;
+	   private String CustCategory;
+	    
+	   void CustomerInfo(String  Dt1, String akku, String gold)
+	   {
+	       
+	       CustNo = Dt1;
+	       CustName = akku;
+	       CustCategory = gold;
+	   }
+	  
+	   public String getCustNo() {
+	       return CustNo;
+	   }
+	   public void setCustNo(String Custno) {
+	       this.CustNo = Custno;
+	   }
+	   public String getCustName() {
+	       return CustName;
+	   }
+	   public void setCustName(String CustName) {
+	       this.CustName = CustName;
+	   }
+	   public String getCustCategory() {
+	       return CustCategory;
+	   }
+	   public void setCustCategory(String CustCategory) {
+	       this.CustCategory = CustCategory;
+	   }
+ 
 
 }
