@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $("#create").click(function(){
+      $("#id1").toggle();
+    });
+  });
+  $(document).ready(function(){
+      $("#read").click(function(){
+        $("#id2").toggle();
+      });
+  });
+  $(document).ready(function(){
+      $("#update").click(function(){
+        $("#id3").toggle();
+      });
+  });
