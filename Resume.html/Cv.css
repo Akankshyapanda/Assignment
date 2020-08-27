@@ -1,0 +1,13 @@
+#about {
+    text-align: center;
+    padding: 40px;
+  }
+  #about h1 {
+    margin: 25px;
+  }
+ #section {
+    padding-bottom: 40px;
+  }
+  #background{
+    background-color: coral;
+  }
